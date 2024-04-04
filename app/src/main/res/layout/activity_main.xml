@@ -10,20 +10,68 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/yellow"
+        android:background="@color/orange"
         android:gravity="center"
         android:text="CUADRO 01"
         android:textSize="20sp"
-        android:textStyle="italic" />
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/brown"
+        android:background="@color/blue"
         android:gravity="center"
         android:text="CUADRO 02"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:text="CUADRO 03"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:text="CUADRO 04"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+        android:layout_width="120dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:background="#7DE423"
+        android:text="CUADRO 05"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+        <TextView
+        android:layout_width="120dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:background="#11EF8F"
+        android:text="CUADRO 06"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+
+
+    </LinearLayout>
 </LinearLayout>

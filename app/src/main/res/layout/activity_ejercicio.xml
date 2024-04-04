@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:text="CUADRO 01"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="#7DE423"
+            android:text="CUADRO 02"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:text="CUADRO 03"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/orange"
+            android:text="CUADRO 04"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+        />
+        <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/asd"
+        android:text="CUADRO 05"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+        <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="#0C566C"
+        android:text="CUADRO 06"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+        <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/cyan"
+        android:text="CUADRO 07"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:text="CUADRO 08"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#A31EA8"
+            android:text="CUADRO 09"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</LinearLayout>
