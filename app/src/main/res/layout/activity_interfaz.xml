@@ -8,7 +8,7 @@
     tools:context=".InterfazActivity"
     android:orientation="vertical">
 
-    <!--TODO: Fila 1-->
+    <!--Fila 1-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="300dp">
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="INTERFACE EXAMPLE"
+                android:text="EJEMPLO INTERFAZ"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -43,7 +43,7 @@
             android:layout_marginTop="200dp"
             android:text="Luis Cervantes"
             android:gravity="center"
-            android:textSize="50sp"
+            android:textSize="40sp"
             android:fontFamily="@font/deutchs"
             />
     </RelativeLayout>
@@ -60,8 +60,8 @@
             android:layout_height="100dp"
             android:background="@drawable/fondo_button"
             android:paddingTop="10dp"
-            android:drawableTop="@drawable/icon1"
-            android:text="OPTION 01"
+            android:drawableTop="@drawable/icon7"
+            android:text="agregar cuenta"
             android:textColor="@color/white"
             />
 
@@ -71,7 +71,7 @@
             android:background="@drawable/fondo_button"
             android:paddingTop="10dp"
             android:drawableTop="@drawable/icon2"
-            android:text="OPTION 02"
+            android:text="DEV"
             android:textColor="@color/white"
             android:layout_marginHorizontal="20dp"
             />
@@ -82,7 +82,7 @@
             android:background="@drawable/fondo_button"
             android:paddingTop="10dp"
             android:drawableTop="@drawable/icon3"
-            android:text="OPTION 03"
+            android:text="accesibilida"
             android:textColor="@color/white"
             />
     </LinearLayout>
@@ -100,7 +100,7 @@
             android:background="@drawable/fondo_button"
             android:paddingTop="10dp"
             android:drawableTop="@drawable/icon4"
-            android:text="OPTION 04"
+            android:text="personal"
             android:textColor="@color/white"
             />
 
@@ -110,7 +110,7 @@
             android:background="@drawable/fondo_button"
             android:paddingTop="10dp"
             android:drawableTop="@drawable/icon5"
-            android:text="OPTION 05"
+            android:text="Invertir"
             android:textColor="@color/white"
             android:layout_marginHorizontal="20dp"
             />
@@ -121,11 +121,10 @@
             android:background="@drawable/fondo_button"
             android:paddingTop="10dp"
             android:drawableTop="@drawable/icon6"
-            android:text="OPTION 06"
+            android:text="millas"
             android:textColor="@color/white"
             />
     </LinearLayout>
-
 
 
 </LinearLayout>
